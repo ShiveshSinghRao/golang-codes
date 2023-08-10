@@ -34,3 +34,12 @@ func main(){
 	anotherURL := partsOfUrl.String()
 	fmt.Println(anotherURL)
 }
+
+// Welcome to handing URls in golang
+// https
+// 3000
+// result Raw quesry is :  coursename=reactjs&paymentid=ghbj456ghb
+// the type of query params are : url.Values
+// Param is :  [reactjs]
+// Param is :  [ghbj456ghb]
+// https://lco.dev/tutcss
