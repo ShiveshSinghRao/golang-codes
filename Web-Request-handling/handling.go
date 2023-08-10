@@ -13,7 +13,7 @@ func main(){
 	if err!=nil{
 		panic(err)
 	}
-	fmt.Println("response of type : %T\n", response)
+	fmt.Printf("response of type : %T\n", response)
 	defer response.Body.Close() // caller's responsibilty to close the connection
     
 	databytes,err:=ioutil.ReadAll(response.Body)
